@@ -2,36 +2,52 @@
 <html>
 <head>
 	<title>Infinity</title>
+	 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 <body>
 
 
 	<!--form-->
-	<div class="form">
-		<div class="text"><br><br>
-	<h4 >Welcome to Dashboard!</h4>
-     
-	<p>Login to access your account</p>
+<div class="login-box">
+		<div class="content">
+			<br><br>
 
-	<form>	
-    <label for="POST" class="POST"><b>POST</b></label><br>
-  <select name="" id="h">
-     <optgroup label="Manager" class="l">
-      <option value="Superviser" class="h">Superviser</option>
-      <option value="Region Head" class="h">Region Head</option>
-    </optgroup>
-     </select><br><br>
-     <label for="username"><b>Username</b></label><br>
-  <input type="text" id="username" name="username" placeholder="mahesh31"><br><br>
-  <label for="Password"><b>Password</b></label><br>
-  <input type="text" id="Password" name="Password" placeholder="********"><br><br>
-  <button class="button" type="button"><b>Log in</b></button><br><br>
-  <a href="" >Forgot password?</a>
-</form>
+			<h2>Welcome to Dashboard!</h2>
+			<hr>
+			<p>Login to access your account</p>
+
+			<form>
+				<div class="form-field">
+			    	<label for="POST" class="POST"><b>Post</b></label><br>
+			  		<select class="field select-box">
+						<option value="Manager">Manager</option>
+			      		<option value="Superviser">Superviser</option>
+			      		<option value="Region Head">Region Head</option>
+			     	</select>
+				</div>
+
+				<div class="form-field">
+					<label for="username"><b>Username</b></label>
+		  			<input type="text" id="username" class="field" name="username" placeholder="mahesh31">
+				</div >
+
+				<div class="form-field">
+					<label for="Password"><b>Password</b></label>
+		  			<input type="text" id="Password" class="field" name="Password" placeholder="********">
+				</div>
+
+				<div class="form-field">
+					<button class="button" type="button"><b>Log in</b></button><br>
+				</div>
+			</form>
+
+			<div class="forgot-password">
+				<a href=""  >Forgot password?</a>
+			</div>
+		</div>
 </div>
-</div>
-	
+
 
 </body>
 </html>
