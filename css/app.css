@@ -1,0 +1,86 @@
+body{
+	background-image: url('../images/login_bg.png');
+  background-size: 1200px 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+	
+}
+.form{
+	background-color: white ;
+	margin-left: 70px;
+	
+	 border: 5px ;
+	 width: 350px;
+	 height: 500PX;
+	 border-bottom-right-radius: 80px;
+     margin-top: -22px;
+
+}
+.text{
+	margin-left: 55px; 
+
+
+}
+p{
+	font-family: arial;
+	font-size: 12px;
+	word-spacing: 1px;
+	color: #999999;
+}
+h4{
+  font-size: 22px;
+}
+
+input,#h {
+  border-width:1px;
+  
+  border-radius: 4px ;
+  height:32px;
+  width: 210px;
+  border-color: #fe640f;
+  margin-top: 6px;
+  box-shadow: 3px;
+   box-shadow: 2px 3px #f2f2f2;
+   cursor:pointer;
+
+
+}
+label{
+	font-size: 10px;
+	text-decoration: bold;
+	font-family:serif;
+	padding-bottom: 2px;
+}
+.button{
+ text-align: center;
+ background-color: #fe640f;
+ width: 220px;
+ height: 40px;
+ border-color: #fe640f;
+ border-radius: 4px ;
+color: white;
+cursor:pointer;
+box-shadow: 3px;
+font-size: 12px;
+
+}
+a{
+	color: #ff3434;
+margin-left: 74px;	
+font-size: 11px;
+margin-top: 10px;
+}
+
+.l{
+	color: #a6a6a6;
+	cursor: pointer;
+	font-size: 15px;
+	height: 5px;
+
+
+}
+.l:hover{
+	background-color: #fe640f;
+}
+
